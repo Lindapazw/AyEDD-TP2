@@ -102,3 +102,10 @@ class Arbol {
     }
 }
 ```
+
+- **`Raiz`**: Nodo que representa la raíz del árbol.
+- **Constructor**: Inicializa el árbol vacío.
+- **`InsertaNodoHIzq`**: Inserta un hijo izquierdo en un nodo dado. Si el nodo es nulo, crea una nueva raíz.
+- **`InsertaNodoHDer`**: Inserta un hijo derecho en un nodo dado. Si el nodo es nulo, crea una nueva raíz.
+- **`Inorden`**: Realiza un recorrido en inorden del árbol, imprimiendo los valores de los nodos.
+- **`Altura`**: Calcula la altura del árbol, considerando la altura máxima entre los subárboles izquierdo y derecho.
