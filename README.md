@@ -109,3 +109,33 @@ class Arbol {
 - **`InsertaNodoHDer`**: Inserta un hijo derecho en un nodo dado. Si el nodo es nulo, crea una nueva raíz.
 - **`Inorden`**: Realiza un recorrido en inorden del árbol, imprimiendo los valores de los nodos.
 - **`Altura`**: Calcula la altura del árbol, considerando la altura máxima entre los subárboles izquierdo y derecho.
+
+### Clase `ArbolBinario`
+
+La clase principal para ejecutar el código del árbol binario y mostrar su funcionamiento.
+
+```java
+class ArbolBinario {
+    public static void main(String[] ar) {
+        // Crea una instancia del árbol binario
+        Arbol A = new Arbol();
+        System.out.print("Agregando la raiz 30 \n");
+        
+        // Inserta nodos en el árbol
+        NodoBinario NodoAux = null, NodoAux2 = null, NodoAux3 = null, NodoAux4 = null;
+        NodoAux2 = A.InsertaNodoHIzq(NodoAux, 30); // Inserta la raíz
+        NodoAux = NodoAux2; // Actualiza el nodo auxiliar
+        NodoAux2 = A.InsertaNodoHIzq(NodoAux, 25); // Inserta un hijo izquierdo
+        NodoAux3 = A.InsertaNodoHDer(NodoAux, 45); // Inserta un hijo derecho
+        NodoAux = NodoAux2; // Actualiza el nodo auxiliar
+        NodoAux2 = A.InsertaNodoHIzq(NodoAux, 20); // Inserta un hijo izquierdo
+        NodoAux4 = A.InsertaNodoHDer(NodoAux, 27); // Inserta un hijo derecho
+
+        // Muestra el árbol en inorden y la altura del árbol
+        System.out.print("\n El árbol binario en In orden es: \n");
+        A.Inorden(A.Raiz);
+        Integer Altura = new Integer(A.Altura(A.Raiz));
+        System.out.print("\n La altura del árbol es: " + Altura.toString() + "\n");
+    }
+}
+```
