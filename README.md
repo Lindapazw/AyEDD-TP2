@@ -139,3 +139,12 @@ class ArbolBinario {
     }
 }
 ```
+
+## Conclusión
+
+En este trabajo, hemos implementado un árbol binario básico utilizando Java. La clase `NodoBinario` define la estructura fundamental de un nodo en el árbol, incluyendo el valor almacenado y las referencias a los hijos izquierdo y derecho. La clase `Arbol` gestiona la estructura del árbol binario, permitiendo la inserción de nodos tanto a la izquierda como a la derecha, así como el recorrido del árbol en inorden y el cálculo de su altura.
+
+A través de la implementación del método principal en la clase `ArbolBinario`, hemos demostrado cómo construir un árbol binario con nodos insertados de manera secuencial. El recorrido en inorden del árbol nos ha permitido verificar que los nodos se almacenan y se recorren en el orden correcto. Además, el cálculo de la altura del árbol ha proporcionado una medida de la profundidad de la estructura.
+
+Este ejercicio ha sido útil para comprender la construcción y manipulación de estructuras de datos en Java, específicamente árboles binarios. La implementación y prueba de estas operaciones fundamentales proporcionan una base sólida para trabajar con estructuras de datos más complejas en futuras aplicaciones.
+
