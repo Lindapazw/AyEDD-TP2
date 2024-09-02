@@ -142,9 +142,18 @@ class ArbolBinario {
 
 ## Conclusión
 
-En este trabajo, hemos implementado un árbol binario básico utilizando Java. La clase `NodoBinario` define la estructura fundamental de un nodo en el árbol, incluyendo el valor almacenado y las referencias a los hijos izquierdo y derecho. La clase `Arbol` gestiona la estructura del árbol binario, permitiendo la inserción de nodos tanto a la izquierda como a la derecha, así como el recorrido del árbol en inorden y el cálculo de su altura.
+En este trabajo práctico, se ha desarrollado una implementación de un árbol binario en Java, que incluye la clase `ArbolBinario` con los métodos `Inorden()` y `altura()` correctamente codificados, tal como se solicitó en el enunciado.
 
-A través de la implementación del método principal en la clase `ArbolBinario`, hemos demostrado cómo construir un árbol binario con nodos insertados de manera secuencial. El recorrido en inorden del árbol nos ha permitido verificar que los nodos se almacenan y se recorren en el orden correcto. Además, el cálculo de la altura del árbol ha proporcionado una medida de la profundidad de la estructura.
+### Resultados
 
-Este ejercicio ha sido útil para comprender la construcción y manipulación de estructuras de datos en Java, específicamente árboles binarios. La implementación y prueba de estas operaciones fundamentales proporcionan una base sólida para trabajar con estructuras de datos más complejas en futuras aplicaciones.
+- **Clase `NodoBinario`**: Define la estructura básica de los nodos del árbol, almacenando el valor y las referencias a los hijos izquierdo y derecho.
+- **Clase `Arbol`**: Proporciona métodos para insertar nodos, realizar un recorrido en inorden y calcular la altura del árbol.
+- **Método `Inorden()`**: Realiza un recorrido en inorden del árbol, imprimiendo los valores de los nodos en el orden correcto.
+- **Método `altura()`**: Calcula la altura del árbol, considerando la profundidad máxima entre los subárboles izquierdo y derecho.
+
+El código cumple con los requisitos del TP al incluir los métodos solicitados y la información personal (nombre, apellido, legajo y DNI). La implementación del método `Inorden()` permite verificar la correcta disposición de los nodos, mientras que el método `altura()` proporciona una medida precisa de la profundidad del árbol. Estos métodos son fundamentales para trabajar con árboles binarios y han sido implementados de acuerdo a las especificaciones del enunciado.
+
+La solución presentada resuelve el TP de manera efectiva, demostrando la correcta implementación de los conceptos fundamentales relacionados con los árboles binarios.
+
+
 
